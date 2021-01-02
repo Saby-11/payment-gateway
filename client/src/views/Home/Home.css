@@ -1,0 +1,36 @@
+.background{
+    color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 50%;
+    margin-top: 120px;
+    margin-bottom: 125px;
+    text-align: center;
+    
+}
+.bttn{
+    width:200px;
+    padding-top: 20px;
+    align-self: center;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    color:black;
+}
+.upper{
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.Homepage{
+    background-attachment: fixed;
+    background-color: orange;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 2px;
+}
+.par{
+    background-attachment: fixed;
+    background-color: orange;
+}

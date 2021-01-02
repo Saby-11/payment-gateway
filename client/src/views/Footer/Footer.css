@@ -1,0 +1,12 @@
+.footer{
+    text-align: center;
+    color:black;
+    background: transparent;
+    background-color: orange;
+    border-radius: 12px;
+    /* background-image: url('../images/bg2.jpg'); */
+}
+
+.line{
+    background-color:black;
+}
