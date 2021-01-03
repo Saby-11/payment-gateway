@@ -18,12 +18,6 @@ app.use(CORS());
 
 app.post("/mail", (req, res) => {
     console.log(req.body);
-    // sgMail.send({
-    //     to: req.body.data,
-    //     from: 'mewriteto86@gmail.com',
-    //     subject: 'Regarding Care Club Donation',
-    //     text: 'Thank you for your donation. Your generosity is appreciated !, Stay Tuned !'
-    // })
     // .then(() => {
     //     console.log('Email sent....')
     //     res.redirect("/mail")
@@ -34,8 +28,8 @@ app.post("/mail", (req, res) => {
         host: "smtp-relay.sendinblue.com",
         port: 587,
         auth: {
-          user: "styagi689@gmail.com",
-          pass: "O8KD93WSF16gRstC",
+          user: "Enter your mail",
+          pass: "Enter your pass",
         },
     });
     // let mailTransporter = nodemailer.createTransport({
